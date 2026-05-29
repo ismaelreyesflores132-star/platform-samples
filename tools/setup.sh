@@ -24,7 +24,7 @@ echo "Installing git commit-message hook"
 echo
 curl -sSLo "${GIT_DIR}/hooks/commit-msg" \
     "https://gerrit-review.googlesource.com/tools/hooks/commit-msg" \
-  && chmod +x "${GIT_DIR}/hooks/commit-msg"
+   chmod +x "${GIT_DIR}/hooks/commit-msg"
 
 echo "Installing git pre-push hook"
 echo
